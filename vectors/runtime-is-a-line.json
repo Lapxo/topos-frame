@@ -1,0 +1,447 @@
+{
+ "about": [
+  "What a capsule runs is a line: the files its runtime's entry reaches by import lie in what that runtime says it runs, read from the",
+  "runtime's own lines, so a capsule of a second runtime is read with no change to the frame, and one that names no runtime runs outside one."
+ ],
+ "cases": [
+  {
+   "name": "root:topos-node · runtime-is-a-line",
+   "world": "root:topos-node",
+   "request": {
+    "verb": "read",
+    "region": "runtime-is-a-line",
+    "at": 3,
+    "shape": "",
+    "name": "topos-node",
+    "reads": [
+     "region/capsule",
+     "region/source",
+     "form/runtime/**"
+    ],
+    "lines": [
+     "bound-lock/1 about=\"the file node starts a capsule from\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/entry value=src/index.ts",
+     "bound-lock/1 about=\"where a capsule of node keeps its regions, one file each\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/regions value=src/regions/",
+     "bound-lock/1 about=\"what node runs of a capsule\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/source value=src/**",
+     "bound-lock/1 about=\"the prefix node gives a host module\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/effects value=node:"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: a node package, as its manifests and its build say it\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=packages",
+       "bound-lock/1 about=\"the manifest the tree reads\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/manifest value=name|version|type|license|author|repository|keywords|sideEffects|engines|exports/**|scripts/**|dependencies|devDependencies|source|lang|prose/*/what|form/prose/*/sentence|audit/wire/ships",
+       "bound-lock/1 about=\"the manifest the place is published with\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/published-manifest value=name|version|type|license|author|repository|keywords|sideEffects|engines|exports/**|scripts/**|dependencies|devDependencies|source|lang|prose/*/what|form/prose/*/sentence|audit/wire/ships",
+       "bound-lock/1 about=\"how the place builds\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/build value=build/**",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 at=witness:the-capsule-says-it by=capsule form=alphabet measure=id role=writes scope=capsule/runtime value=node"
+      ],
+      "receipts": []
+     },
+     "source": {
+      "lines": [],
+      "receipts": [
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=body role=reads scope=source/range/render value=232..880",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=shell",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=render",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=audit|author|build|dependencies|engines|exports|form|keywords|lang|license|name|prose|published-manifest|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/build.ts value=build",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/manifest.ts value=manifest",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/published-manifest.ts value=publishedManifest",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=shell",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule|./regions/build.ts|./regions/manifest.ts|./regions/published-manifest.ts",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/words value=author|dependencies|engines|keywords|lang|license|name|repository|source|type|version",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\"'], region: build },\\n  manifest: { reads: ['name', 'version', 'type', 'license', 'author', 'repository', 'keywords', 'sideEffects', 'engines', 'exports/**', 'scripts/**', 'dependencies', 'devDependencies', 'source', 'lang', 'prose/\"",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=text role=reads scope=source/signature/render value=render",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=10..10",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=Object|at|built|found|json|lang|listed|of|one|resolved|sentence|subpaths|truth|under|versioned",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=manifest|versioned",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=about|audit|author|dependencies|engines|exports|git|keywords|license|name|prose|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=at|found|json|lang|listed|of|sentence|truth|under",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/words value=about|author|dependencies|engines|exports|git|keywords|license|name|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=named role=reads scope=source/range/manifest value=744..808",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\"\\n * The manifest of the tree's copy: what the place holds, read by the tree's own resolver through typesVersions, main and\\n * types, and by a resolver asking for sources through the source each subpath was built from. Nothing is a default: a\\n * field absent from the place's lines is absent here, and the description is its prose written as its language writes.\\n \"",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/signature/manifest value=\"manifest(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/at value='source'|'repository'|'type'|'sideEffects'|'name'|'version'|'license'|'author'|'keywords'|'engines'|'dependencies'|'dependencies'|'devDependencies'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/listed value='audit/wire/ships'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/of value='about'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/under value='exports'|'scripts'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=28..28",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=17..17",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=JSON|Object|json|manifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=publishedManifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=exports|main|object|source|types",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./manifest.ts value=manifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=json",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule|./manifest.ts",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/words value=exports|main|object|source|types",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=named role=reads scope=source/range/publishedManifest value=273..346",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\" The manifest a consumer reads: the tree's copy without what only the tree's resolver reads, each subpath a type and a default. \"",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=text role=reads scope=source/signature/publishedManifest value=\"publishedManifest(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=12..12",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=7..7",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=Object|include|json|options|truth|under",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/compared value=include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=build",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=build|include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=json|truth|under",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/words value=build|include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=named role=reads scope=source/range/build value=216..277",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\" How a place builds: every option one line, its sources one list, written as its build reads them. \"",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/signature/build value=\"build(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/typed/under value='build'",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=9..9",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=5..5",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0"
+      ]
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "runtime-is-a-line/files",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-node · a runtime narrowed to its regions leaves the entry and its helpers running outside it",
+   "world": "root:topos-node",
+   "request": {
+    "verb": "read",
+    "region": "runtime-is-a-line",
+    "at": 3,
+    "shape": "",
+    "name": "topos-node",
+    "reads": [
+     "region/capsule",
+     "region/source",
+     "form/runtime/**"
+    ],
+    "lines": [
+     "bound-lock/1 about=\"the file node starts a capsule from\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/entry value=src/index.ts",
+     "bound-lock/1 about=\"where a capsule of node keeps its regions, one file each\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/regions value=src/regions/",
+     "bound-lock/1 about=\"what node runs of a capsule\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/source value=src/regions/**",
+     "bound-lock/1 about=\"the prefix node gives a host module\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/effects value=node:"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: a node package, as its manifests and its build say it\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=packages",
+       "bound-lock/1 about=\"the manifest the tree reads\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/manifest value=name|version|type|license|author|repository|keywords|sideEffects|engines|exports/**|scripts/**|dependencies|devDependencies|source|lang|prose/*/what|form/prose/*/sentence|audit/wire/ships",
+       "bound-lock/1 about=\"the manifest the place is published with\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/published-manifest value=name|version|type|license|author|repository|keywords|sideEffects|engines|exports/**|scripts/**|dependencies|devDependencies|source|lang|prose/*/what|form/prose/*/sentence|audit/wire/ships",
+       "bound-lock/1 about=\"how the place builds\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/build value=build/**",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 at=witness:the-capsule-says-it by=capsule form=alphabet measure=id role=writes scope=capsule/runtime value=node"
+      ],
+      "receipts": []
+     },
+     "source": {
+      "lines": [],
+      "receipts": [
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=body role=reads scope=source/range/render value=232..880",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=shell",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=render",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=audit|author|build|dependencies|engines|exports|form|keywords|lang|license|name|prose|published-manifest|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/build.ts value=build",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/manifest.ts value=manifest",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/published-manifest.ts value=publishedManifest",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=shell",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule|./regions/build.ts|./regions/manifest.ts|./regions/published-manifest.ts",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/words value=author|dependencies|engines|keywords|lang|license|name|repository|source|type|version",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\"'], region: build },\\n  manifest: { reads: ['name', 'version', 'type', 'license', 'author', 'repository', 'keywords', 'sideEffects', 'engines', 'exports/**', 'scripts/**', 'dependencies', 'devDependencies', 'source', 'lang', 'prose/\"",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=text role=reads scope=source/signature/render value=render",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=10..10",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=Object|at|built|found|json|lang|listed|of|one|resolved|sentence|subpaths|truth|under|versioned",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=manifest|versioned",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=about|audit|author|dependencies|engines|exports|git|keywords|license|name|prose|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=at|found|json|lang|listed|of|sentence|truth|under",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/words value=about|author|dependencies|engines|exports|git|keywords|license|name|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=named role=reads scope=source/range/manifest value=744..808",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\"\\n * The manifest of the tree's copy: what the place holds, read by the tree's own resolver through typesVersions, main and\\n * types, and by a resolver asking for sources through the source each subpath was built from. Nothing is a default: a\\n * field absent from the place's lines is absent here, and the description is its prose written as its language writes.\\n \"",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/signature/manifest value=\"manifest(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/at value='source'|'repository'|'type'|'sideEffects'|'name'|'version'|'license'|'author'|'keywords'|'engines'|'dependencies'|'dependencies'|'devDependencies'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/listed value='audit/wire/ships'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/of value='about'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/under value='exports'|'scripts'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=28..28",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=17..17",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=JSON|Object|json|manifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=publishedManifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=exports|main|object|source|types",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./manifest.ts value=manifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=json",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule|./manifest.ts",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/words value=exports|main|object|source|types",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=named role=reads scope=source/range/publishedManifest value=273..346",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\" The manifest a consumer reads: the tree's copy without what only the tree's resolver reads, each subpath a type and a default. \"",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=text role=reads scope=source/signature/publishedManifest value=\"publishedManifest(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=12..12",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=7..7",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=Object|include|json|options|truth|under",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/compared value=include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=build",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=build|include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=json|truth|under",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/words value=build|include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=named role=reads scope=source/range/build value=216..277",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\" How a place builds: every option one line, its sources one list, written as its build reads them. \"",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/signature/build value=\"build(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/typed/under value='build'",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=9..9",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=5..5",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0"
+      ]
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "runtime-is-a-line/files",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 1,
+      "hi": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-node · a capsule that names no runtime runs every file outside one",
+   "world": "root:topos-node",
+   "request": {
+    "verb": "read",
+    "region": "runtime-is-a-line",
+    "at": 3,
+    "shape": "",
+    "name": "topos-node",
+    "reads": [
+     "region/capsule",
+     "region/source",
+     "form/runtime/**"
+    ],
+    "lines": [
+     "bound-lock/1 about=\"the file node starts a capsule from\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/entry value=src/index.ts",
+     "bound-lock/1 about=\"where a capsule of node keeps its regions, one file each\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/regions value=src/regions/",
+     "bound-lock/1 about=\"what node runs of a capsule\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/source value=src/**",
+     "bound-lock/1 about=\"the prefix node gives a host module\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/node/effects value=node:"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: a node package, as its manifests and its build say it\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=packages",
+       "bound-lock/1 about=\"the manifest the tree reads\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/manifest value=name|version|type|license|author|repository|keywords|sideEffects|engines|exports/**|scripts/**|dependencies|devDependencies|source|lang|prose/*/what|form/prose/*/sentence|audit/wire/ships",
+       "bound-lock/1 about=\"the manifest the place is published with\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/published-manifest value=name|version|type|license|author|repository|keywords|sideEffects|engines|exports/**|scripts/**|dependencies|devDependencies|source|lang|prose/*/what|form/prose/*/sentence|audit/wire/ships",
+       "bound-lock/1 about=\"how the place builds\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/build value=build/**",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none"
+      ],
+      "receipts": []
+     },
+     "source": {
+      "lines": [],
+      "receipts": [
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=body role=reads scope=source/range/render value=232..880",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=shell",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=render",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=audit|author|build|dependencies|engines|exports|form|keywords|lang|license|name|prose|published-manifest|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/build.ts value=build",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/manifest.ts value=manifest",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./regions/published-manifest.ts value=publishedManifest",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=shell",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule|./regions/build.ts|./regions/manifest.ts|./regions/published-manifest.ts",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=id role=reads scope=source/words value=author|dependencies|engines|keywords|lang|license|name|repository|source|type|version",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\"'], region: build },\\n  manifest: { reads: ['name', 'version', 'type', 'license', 'author', 'repository', 'keywords', 'sideEffects', 'engines', 'exports/**', 'scripts/**', 'dependencies', 'devDependencies', 'source', 'lang', 'prose/\"",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=text role=reads scope=source/signature/render value=render",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=10..10",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=0..0",
+       "bound-lock/1 at=place:src/index.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=Object|at|built|found|json|lang|listed|of|one|resolved|sentence|subpaths|truth|under|versioned",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=manifest|versioned",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=about|audit|author|dependencies|engines|exports|git|keywords|license|name|prose|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=at|found|json|lang|listed|of|sentence|truth|under",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=id role=reads scope=source/words value=about|author|dependencies|engines|exports|git|keywords|license|name|repository|scripts|source|type|version",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=named role=reads scope=source/range/manifest value=744..808",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\"\\n * The manifest of the tree's copy: what the place holds, read by the tree's own resolver through typesVersions, main and\\n * types, and by a resolver asking for sources through the source each subpath was built from. Nothing is a default: a\\n * field absent from the place's lines is absent here, and the description is its prose written as its language writes.\\n \"",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/signature/manifest value=\"manifest(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/at value='source'|'repository'|'type'|'sideEffects'|'name'|'version'|'license'|'author'|'keywords'|'engines'|'dependencies'|'dependencies'|'devDependencies'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/listed value='audit/wire/ships'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/of value='about'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=text role=reads scope=source/typed/under value='exports'|'scripts'",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=28..28",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=17..17",
+       "bound-lock/1 at=place:src/regions/manifest.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=JSON|Object|json|manifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=publishedManifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=exports|main|object|source|types",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/./manifest.ts value=manifest",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=json",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule|./manifest.ts",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=id role=reads scope=source/words value=exports|main|object|source|types",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=named role=reads scope=source/range/publishedManifest value=273..346",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\" The manifest a consumer reads: the tree's copy without what only the tree's resolver reads, each subpath a type and a default. \"",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=text role=reads scope=source/signature/publishedManifest value=\"publishedManifest(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=12..12",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=7..7",
+       "bound-lock/1 at=place:src/regions/published-manifest.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/calls value=Object|include|json|options|truth|under",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/carries value=Asked",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/compared value=include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/declares value=build",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/heads value=build|include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/imports/@lapxo/topos/capsule value=json|truth|under",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/lang value=ts",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/specifiers value=@lapxo/topos/capsule",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=id role=reads scope=source/words value=build|include",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=named role=reads scope=source/range/build value=216..277",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/head value=\" How a place builds: every option one line, its sources one list, written as its build reads them. \"",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/signature/build value=\"build(asked: Asked): readonly string[]\"",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=text role=reads scope=source/typed/under value='build'",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/customised value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/dynamic value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/lexed value=0..0",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/lines value=9..9",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/longest value=5..5",
+       "bound-lock/1 at=place:src/regions/build.ts by=reader form=alphabet measure=count role=reads scope=source/unread value=0..0"
+      ]
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "runtime-is-a-line/files",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 4,
+      "hi": 4
+     }
+    }
+   ]
+  },
+  {
+   "name": "stub:python · a capsule of a second runtime runs what its runtime says",
+   "world": "stub:python",
+   "request": {
+    "verb": "read",
+    "region": "runtime-is-a-line",
+    "at": 3,
+    "shape": "",
+    "name": "python-stub",
+    "reads": [
+     "region/capsule",
+     "region/source",
+     "form/runtime/**"
+    ],
+    "lines": [
+     "bound-lock/1 about=\"the file python starts a capsule from\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/python/entry value=main.py",
+     "bound-lock/1 about=\"where a capsule of python keeps its regions, one file each\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/python/regions value=regions/",
+     "bound-lock/1 about=\"what python runs of a capsule\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/python/source value=*.py|regions/*.py",
+     "bound-lock/1 about=\"the prefix python gives a host module\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=form/runtime/python/effects value=python:",
+     "bound-lock/1 at=policy:place/views by=target form=alphabet measure=id needs=main.py role=demands scope=view/entry shape=main.py value=entry"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 at=witness:the-capsule-says-it by=capsule form=alphabet measure=id role=writes scope=capsule/domain value=greetings",
+       "bound-lock/1 at=witness:the-capsule-says-it by=capsule form=alphabet measure=id role=writes scope=capsule/runtime value=python",
+       "bound-lock/1 at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/greet value=name"
+      ],
+      "receipts": []
+     },
+     "source": {
+      "lines": [],
+      "receipts": [
+       "bound-lock/1 at=place:main.py by=python form=alphabet measure=id role=reads scope=source/imports/./regions/greet.py value=greet",
+       "bound-lock/1 at=place:main.py by=python form=alphabet measure=id role=reads scope=source/lines value=9..9",
+       "bound-lock/1 at=place:regions/greet.py by=python form=alphabet measure=id role=reads scope=source/lines value=12..12"
+      ]
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "runtime-is-a-line/files",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  }
+ ]
+}

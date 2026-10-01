@@ -1,0 +1,220 @@
+{
+ "about": [
+  "What the no-manifest-by-hand region renders, asked in the worlds its views ask it, each handed what the region declares it reads."
+ ],
+ "cases": [
+  {
+   "name": "root:topos-node · no-manifest-by-hand",
+   "world": "root:topos-node",
+   "request": {
+    "verb": "read",
+    "region": "no-manifest-by-hand",
+    "at": 3,
+    "shape": "",
+    "name": "topos-node",
+    "lines": [
+     "bound-lock/1 about=\"the manifest of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=package.json role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the tsconfig of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=tsconfig.json role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the gitignore of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.gitignore role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the readme-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=README.md role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"the reference-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=docs/reference.md role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 about=\"the citation-file of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=CITATION.cff role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"the guide of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=CONTRIBUTING.md role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 about=\"the pipeline-test of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/test.yml role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the pipeline-tag of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/tag.yml role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the pipeline-release of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/release.yml role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"how to cite the place: the file a forge reads for its cite button, rendered from the lock and never written by hand\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"what the repository of the place never holds, one line each\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the guide of a package, at resolution zero: five lines and nothing else\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 at=policy:view/license by=target form=alphabet measure=id role=demands scope=view/license shape=LICENSE value=license",
+     "bound-lock/1 about=\"the manifest of the tree's copy: what the place holds while its own resolver still reads types through typesVersions, main and types\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the release of that version: published once by the trusted publisher, with its tarball attached\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"the tag of the version the manifest names, made once\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the check on every push and every proposal, on each engine the place supports\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the door of a topos: its name and badges and what it is, how it is installed, how it is checked, and where to read on\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"what a package carries of its own reading, so a clone folds from receipts and runs nothing\" at=policy:view/receipts by=target form=alphabet measure=id role=demands scope=view/receipts shape=receipts.bound value=receipts",
+     "bound-lock/1 about=\"the reference of a capsule: its regions, what each reads and what each writes, read off its own descriptor\" at=witness:an-sdk-reference-drawn-as-a-theory by=target form=alphabet measure=id role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the manifest of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the tsconfig of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the gitignore of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the readme-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"the reference-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 about=\"the citation-file of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"the guide of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 about=\"the pipeline-test of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the pipeline-tag of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the pipeline-release of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"the file that names a capsule of node as a package\" at=witness:a-runtime-only-the-fixtures-held by=target form=alphabet measure=id role=writes scope=form/runtime/node/manifest value=package.json"
+    ],
+    "reads": [
+     "view/*",
+     "form/runtime/**",
+     "region/capsule"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 at=witness:the-capsule-says-it by=capsule form=alphabet measure=id role=writes scope=capsule/runtime value=node"
+      ],
+      "receipts": []
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "no-manifest-by-hand/renders",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-github · no-manifest-by-hand",
+   "world": "root:topos-github",
+   "request": {
+    "verb": "read",
+    "region": "no-manifest-by-hand",
+    "at": 3,
+    "shape": "",
+    "name": "topos-github",
+    "lines": [
+     "bound-lock/1 about=\"the manifest of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=package.json role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the tsconfig of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=tsconfig.json role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the gitignore of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.gitignore role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the readme-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=README.md role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"the reference-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=docs/reference.md role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 about=\"the citation-file of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=CITATION.cff role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"the guide of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=CONTRIBUTING.md role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 about=\"the pipeline-test of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/test.yml role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the pipeline-tag of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/tag.yml role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the pipeline-release of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/release.yml role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"how to cite the place: the file a forge reads for its cite button, rendered from the lock and never written by hand\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"what the repository of the place never holds, one line each\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the guide of a package, at resolution zero: five lines and nothing else\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 at=policy:view/license by=target form=alphabet measure=id role=demands scope=view/license shape=LICENSE value=license",
+     "bound-lock/1 about=\"the manifest of the tree's copy: what the place holds while its own resolver still reads types through typesVersions, main and types\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the release of that version: published once by the trusted publisher, with its tarball attached\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"the tag of the version the manifest names, made once\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the check on every push and every proposal, on each engine the place supports\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the door of a topos: its name and badges and what it is, how it is installed, how it is checked, and where to read on\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"what a package carries of its own reading, so a clone folds from receipts and runs nothing\" at=policy:view/receipts by=target form=alphabet measure=id role=demands scope=view/receipts shape=receipts.bound value=receipts",
+     "bound-lock/1 about=\"the reference of a capsule: its regions, what each reads and what each writes, read off its own descriptor\" at=witness:an-sdk-reference-drawn-as-a-theory by=target form=alphabet measure=id role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the manifest of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the tsconfig of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the gitignore of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the readme-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"the reference-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 about=\"the citation-file of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"the guide of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 about=\"the pipeline-test of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the pipeline-tag of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the pipeline-release of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"the file that names a capsule of node as a package\" at=witness:a-runtime-only-the-fixtures-held by=target form=alphabet measure=id role=writes scope=form/runtime/node/manifest value=package.json"
+    ],
+    "reads": [
+     "view/*",
+     "form/runtime/**",
+     "region/capsule"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 at=witness:the-capsule-says-it by=capsule form=alphabet measure=id role=writes scope=capsule/runtime value=node"
+      ],
+      "receipts": []
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "no-manifest-by-hand/renders",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-doc · no-manifest-by-hand",
+   "world": "root:topos-doc",
+   "request": {
+    "verb": "read",
+    "region": "no-manifest-by-hand",
+    "at": 3,
+    "shape": "",
+    "name": "topos-doc",
+    "lines": [
+     "bound-lock/1 about=\"the manifest of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=package.json role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the tsconfig of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=tsconfig.json role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the gitignore of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.gitignore role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the readme-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=README.md role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"the reference-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=docs/reference.md role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 about=\"the citation-file of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=CITATION.cff role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"the guide of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=CONTRIBUTING.md role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 about=\"the pipeline-test of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/test.yml role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the pipeline-tag of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/tag.yml role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the pipeline-release of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id needs=.github/workflows/release.yml role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"how to cite the place: the file a forge reads for its cite button, rendered from the lock and never written by hand\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"what the repository of the place never holds, one line each\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the guide of a package, at resolution zero: five lines and nothing else\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 at=policy:view/license by=target form=alphabet measure=id role=demands scope=view/license shape=LICENSE value=license",
+     "bound-lock/1 about=\"the manifest of the tree's copy: what the place holds while its own resolver still reads types through typesVersions, main and types\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the release of that version: published once by the trusted publisher, with its tarball attached\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"the tag of the version the manifest names, made once\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the check on every push and every proposal, on each engine the place supports\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the door of a topos: its name and badges and what it is, how it is installed, how it is checked, and where to read on\" at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"what a package carries of its own reading, so a clone folds from receipts and runs nothing\" at=policy:view/receipts by=target form=alphabet measure=id role=demands scope=view/receipts shape=receipts.bound value=receipts",
+     "bound-lock/1 about=\"the reference of a capsule: its regions, what each reads and what each writes, read off its own descriptor\" at=witness:an-sdk-reference-drawn-as-a-theory by=target form=alphabet measure=id role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 at=witness:a-topos-that-was-not-a-place by=target form=alphabet measure=id role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the manifest of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/manifest shape=package.json value=manifest@3",
+     "bound-lock/1 about=\"the tsconfig of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/tsconfig shape=tsconfig.json value=build",
+     "bound-lock/1 about=\"the gitignore of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/gitignore shape=.gitignore value=ignore",
+     "bound-lock/1 about=\"the readme-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/readme-capsule shape=README.md value=hero|install@1|check@0|pointers",
+     "bound-lock/1 about=\"the reference-capsule of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/reference-capsule shape=docs/reference.md value=regions",
+     "bound-lock/1 about=\"the citation-file of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/citation-file shape=CITATION.cff value=cff",
+     "bound-lock/1 about=\"the guide of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/guide shape=CONTRIBUTING.md value=guide-at-zero",
+     "bound-lock/1 about=\"the pipeline-test of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-test shape=.github/workflows/test.yml value=pipeline-test",
+     "bound-lock/1 about=\"the pipeline-tag of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-tag shape=.github/workflows/tag.yml value=pipeline-tag",
+     "bound-lock/1 about=\"the pipeline-release of this place, written from its lines by the capsule that renders it\" at=policy:place/views by=target form=alphabet measure=id role=demands scope=view/pipeline-release shape=.github/workflows/release.yml value=pipeline-release",
+     "bound-lock/1 about=\"the file that names a capsule of node as a package\" at=witness:a-runtime-only-the-fixtures-held by=target form=alphabet measure=id role=writes scope=form/runtime/node/manifest value=package.json"
+    ],
+    "reads": [
+     "view/*",
+     "form/runtime/**",
+     "region/capsule"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 at=witness:the-capsule-says-it by=capsule form=alphabet measure=id role=writes scope=capsule/runtime value=node"
+      ],
+      "receipts": []
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "no-manifest-by-hand/renders",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  }
+ ]
+}

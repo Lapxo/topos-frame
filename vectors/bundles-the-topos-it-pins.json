@@ -1,0 +1,229 @@
+{
+ "about": [
+  "A capsule bundles the topos it pins: its own lock names one topos release by digest, the one its blob was packed against;",
+  "a lock naming none bundled a topos nobody released, and one naming two names none."
+ ],
+ "cases": [
+  {
+   "name": "root:topos-bound · bundles-the-topos-it-pins",
+   "world": "root:topos-bound",
+   "request": {
+    "verb": "read",
+    "region": "bundles-the-topos-it-pins",
+    "at": 3,
+    "shape": "",
+    "name": "topos-bound",
+    "reads": [
+     "region/capsule"
+    ],
+    "lines": [],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: what bound keeps in its locks, and a capsule read as its entries\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=bound",
+       "bound-lock/1 about=\"a capsule read as its entries: its lock, its code, its vectors\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/capsules value=*/",
+       "bound-lock/1 at=policy:topos/capsule by=target form=alphabet measure=writes role=receipt scope=region/capsules value=audit/topos/**",
+       "bound-lock/1 about=\"the laws a lock states, each with what it rests on and the samples that show it\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/laws value=*.bound",
+       "bound-lock/1 at=policy:topos/capsule by=target form=alphabet measure=writes role=receipt scope=region/laws value=law/**|audit/**",
+       "bound-lock/1 about=\"what this capsule reaches beyond the bytes it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 about=\"the release of topos this capsule's blob bundles, laid from its digest, never the sibling source\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:9bd23c16b52258e2a2f56f516887aef384b799bd8b54d133e9f82c4aa99c9e2f",
+       "bound-lock/1 about=\"the release of the object this capsule's blob bundles, laid from its digest, never the sibling source\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/obligations value=sha256:ba4149b7d00941920027c4527a222f11717fb105bb052cbc6be12a9d17240162"
+      ],
+      "receipts": []
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "bundles-the-topos-it-pins/pins",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-doc · bundles-the-topos-it-pins",
+   "world": "root:topos-doc",
+   "request": {
+    "verb": "read",
+    "region": "bundles-the-topos-it-pins",
+    "at": 3,
+    "shape": "",
+    "name": "topos-doc",
+    "reads": [
+     "region/capsule"
+    ],
+    "lines": [],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: the documents a place is read through, from its one sentence to its reference, each page a list of regions and the laws that read them\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=documents",
+       "bound-lock/1 about=\"the a-fact-appears-once region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/a-fact-appears-once value=**",
+       "bound-lock/1 about=\"the a-number-is-a-receipt region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/a-number-is-a-receipt value=prose/**",
+       "bound-lock/1 about=\"the a-page-has-a-resolution region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/a-page-has-a-resolution value=view/*",
+       "bound-lock/1 about=\"the a-paragraph-rests-on-what-it-cites region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/a-paragraph-rests-on-what-it-cites value=**",
+       "bound-lock/1 about=\"the alphabet region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/alphabet value=lang|prose/*/reference/*|notation/*",
+       "bound-lock/1 about=\"the bond region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/bond value=lang|form/prose/**|form/template/**|prose/*/cell/*|prose/*/apart|theme|notation/claim|notation/renders|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the cff region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/cff value=lang|form/prose/**|form/template/**|prose/*/cff/*|cites/*|name|version|author|repository|license|sources/doi",
+       "bound-lock/1 about=\"the check region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/check value=lang|form/prose/**|form/template/**|prose/*/check/*|theme|notation/renders|fold|repository|repository/resolved|check|region/cases",
+       "bound-lock/1 about=\"the commands region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/commands value=lang|prose/*/commands",
+       "bound-lock/1 about=\"the door region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/door value=lang|form/prose/**|form/template/**|prose/**|view/*|notation/claim|dep/**|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the figure region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/figure value=lang|form/prose/**|form/template/**|prose/*/cell/*|prose/*/apart|prose/*/marks|view/*|notation/claim|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the first-use region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/first-use value=lang|form/prose/**|form/template/**|prose/*/first-use/*|prose/*/example/*|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the forms region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/forms value=lang|form/prose/**|form/template/**|prose/*/reference/*|docs/forms|region/source",
+       "bound-lock/1 about=\"the guide-at-zero region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/guide-at-zero value=lang|form/prose/**|form/template/**|prose/*/guide/*|prose/*/contributing|check|region/laws",
+       "bound-lock/1 about=\"the hero region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/hero value=lang|form/prose/**|form/template/**|prose/*/what|prose/*/badge/*|docs/logo|docs/badges|name|theme|notation/renders|sources/*|dependencies|version|license|engines|cites/*|region/cases|region/state",
+       "bound-lock/1 about=\"the how-they-rest region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/how-they-rest value=lang|form/prose/**|form/template/**|prose/**|dep/**",
+       "bound-lock/1 about=\"the idea region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/idea value=lang|prose/*/idea|prose/*/idea/*",
+       "bound-lock/1 about=\"the install region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/install value=install|name",
+       "bound-lock/1 about=\"the learn region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/learn value=lang|form/prose/**|form/template/**|prose/*/learn/**|prose/*/cell/*|prose/*/example/*|prose/*/apart|theme|notation/*|view/*|examples/*|region/examples|region/source|region/offers|region/laws",
+       "bound-lock/1 about=\"the license region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/license value=license",
+       "bound-lock/1 about=\"the notation region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/notation value=lang|form/prose/**|form/template/**|prose/*/notation/*|prose/*/reference/*|notation/*|region/laws|region/offers|region/source",
+       "bound-lock/1 about=\"the open-conjectures region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/open-conjectures value=lang|form/prose/**|form/template/**|prose/*/open/*|open/who|samples/*|region/laws",
+       "bound-lock/1 about=\"the operations region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/operations value=lang|form/prose/**|form/template/**|prose/*/reference/*|region/laws|region/offers|region/source",
+       "bound-lock/1 about=\"the pointers region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/pointers value=lang|form/prose/**|form/template/**|prose/*/pointers/*|view/*|region/state",
+       "bound-lock/1 about=\"the ranges region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/ranges value=lang|form/prose/**|form/template/**|prose/*/cell/*|prose/*/apart|theme|notation/claim|notation/renders|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the reading region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/reading value=lang|form/prose/**|form/template/**|prose/*/reading/*|region/source",
+       "bound-lock/1 about=\"the reference region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/reference value=lang|form/prose/**|form/template/**|prose/*/reference/*|docs/forms|region/laws|region/offers|region/source",
+       "bound-lock/1 about=\"the regions region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/regions value=lang|form/prose/**|form/template/**|prose/*/regions/*|capsule/**|audit/*|region/**|region/capsule",
+       "bound-lock/1 about=\"the the-object region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/the-object value=lang|form/prose/**|form/template/**|prose/*/the-object/*|prose/*/reference/*|prose/*/states/*|theme|notation/*|region/laws|region/offers|region/source",
+       "bound-lock/1 about=\"the the-paper region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/the-paper value=lang|form/prose/**|form/template/**|prose/*/paper|prose/*/the-paper/*|prose/*/cite/*|cites/*|sources/doi",
+       "bound-lock/1 about=\"the units region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/units value=lang|prose/*/reference/*|docs/units|region/source",
+       "bound-lock/1 about=\"the what-holds region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/what-holds value=lang|form/prose/**|form/template/**|prose/*/what-holds/*|prose/*/reference/*|docs/what-holds|docs/measured|samples/*|region/laws",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines and receipts it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 about=\"the release of topos this capsule's blob bundles, laid from its digest, never the sibling source\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:9bd23c16b52258e2a2f56f516887aef384b799bd8b54d133e9f82c4aa99c9e2f"
+      ],
+      "receipts": []
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "bundles-the-topos-it-pins/pins",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-doc · a lock that names no topos bundled one nobody released",
+   "world": "root:topos-doc",
+   "request": {
+    "verb": "read",
+    "region": "bundles-the-topos-it-pins",
+    "at": 3,
+    "shape": "",
+    "name": "topos-doc",
+    "reads": [
+     "region/capsule"
+    ],
+    "lines": [],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: the documents a place is read through, from its one sentence to its reference, each page a list of regions and the laws that read them\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=documents",
+       "bound-lock/1 about=\"the a-fact-appears-once region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/a-fact-appears-once value=**",
+       "bound-lock/1 about=\"the a-number-is-a-receipt region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/a-number-is-a-receipt value=prose/**",
+       "bound-lock/1 about=\"the a-page-has-a-resolution region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/a-page-has-a-resolution value=view/*",
+       "bound-lock/1 about=\"the a-paragraph-rests-on-what-it-cites region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/a-paragraph-rests-on-what-it-cites value=**",
+       "bound-lock/1 about=\"the alphabet region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/alphabet value=lang|prose/*/reference/*|notation/*",
+       "bound-lock/1 about=\"the bond region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/bond value=lang|form/prose/**|form/template/**|prose/*/cell/*|prose/*/apart|theme|notation/claim|notation/renders|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the cff region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/cff value=lang|form/prose/**|form/template/**|prose/*/cff/*|cites/*|name|version|author|repository|license|sources/doi",
+       "bound-lock/1 about=\"the check region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/check value=lang|form/prose/**|form/template/**|prose/*/check/*|theme|notation/renders|fold|repository|repository/resolved|check|region/cases",
+       "bound-lock/1 about=\"the commands region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/commands value=lang|prose/*/commands",
+       "bound-lock/1 about=\"the door region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/door value=lang|form/prose/**|form/template/**|prose/**|view/*|notation/claim|dep/**|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the figure region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/figure value=lang|form/prose/**|form/template/**|prose/*/cell/*|prose/*/apart|prose/*/marks|view/*|notation/claim|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the first-use region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/first-use value=lang|form/prose/**|form/template/**|prose/*/first-use/*|prose/*/example/*|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the forms region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/forms value=lang|form/prose/**|form/template/**|prose/*/reference/*|docs/forms|region/source",
+       "bound-lock/1 about=\"the guide-at-zero region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/guide-at-zero value=lang|form/prose/**|form/template/**|prose/*/guide/*|prose/*/contributing|check|region/laws",
+       "bound-lock/1 about=\"the hero region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/hero value=lang|form/prose/**|form/template/**|prose/*/what|prose/*/badge/*|docs/logo|docs/badges|name|theme|notation/renders|sources/*|dependencies|version|license|engines|cites/*|region/cases|region/state",
+       "bound-lock/1 about=\"the how-they-rest region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/how-they-rest value=lang|form/prose/**|form/template/**|prose/**|dep/**",
+       "bound-lock/1 about=\"the idea region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/idea value=lang|prose/*/idea|prose/*/idea/*",
+       "bound-lock/1 about=\"the install region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/install value=install|name",
+       "bound-lock/1 about=\"the learn region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/learn value=lang|form/prose/**|form/template/**|prose/*/learn/**|prose/*/cell/*|prose/*/example/*|prose/*/apart|theme|notation/*|view/*|examples/*|region/examples|region/source|region/offers|region/laws",
+       "bound-lock/1 about=\"the license region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/license value=license",
+       "bound-lock/1 about=\"the notation region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/notation value=lang|form/prose/**|form/template/**|prose/*/notation/*|prose/*/reference/*|notation/*|region/laws|region/offers|region/source",
+       "bound-lock/1 about=\"the open-conjectures region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/open-conjectures value=lang|form/prose/**|form/template/**|prose/*/open/*|open/who|samples/*|region/laws",
+       "bound-lock/1 about=\"the operations region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/operations value=lang|form/prose/**|form/template/**|prose/*/reference/*|region/laws|region/offers|region/source",
+       "bound-lock/1 about=\"the pointers region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/pointers value=lang|form/prose/**|form/template/**|prose/*/pointers/*|view/*|region/state",
+       "bound-lock/1 about=\"the ranges region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/ranges value=lang|form/prose/**|form/template/**|prose/*/cell/*|prose/*/apart|theme|notation/claim|notation/renders|examples/*|region/examples|region/source",
+       "bound-lock/1 about=\"the reading region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/reading value=lang|form/prose/**|form/template/**|prose/*/reading/*|region/source",
+       "bound-lock/1 about=\"the reference region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/reference value=lang|form/prose/**|form/template/**|prose/*/reference/*|docs/forms|region/laws|region/offers|region/source",
+       "bound-lock/1 about=\"the regions region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/regions value=lang|form/prose/**|form/template/**|prose/*/regions/*|capsule/**|audit/*|region/**|region/capsule",
+       "bound-lock/1 about=\"the the-object region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/the-object value=lang|form/prose/**|form/template/**|prose/*/the-object/*|prose/*/reference/*|prose/*/states/*|theme|notation/*|region/laws|region/offers|region/source",
+       "bound-lock/1 about=\"the the-paper region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/the-paper value=lang|form/prose/**|form/template/**|prose/*/paper|prose/*/the-paper/*|prose/*/cite/*|cites/*|sources/doi",
+       "bound-lock/1 about=\"the units region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/units value=lang|prose/*/reference/*|docs/units|region/source",
+       "bound-lock/1 about=\"the what-holds region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/what-holds value=lang|form/prose/**|form/template/**|prose/*/what-holds/*|prose/*/reference/*|docs/what-holds|docs/measured|samples/*|region/laws",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines and receipts it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none"
+      ],
+      "receipts": []
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "bundles-the-topos-it-pins/pins",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 1,
+      "hi": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-bound · a lock that names two topos releases names none",
+   "world": "root:topos-bound",
+   "request": {
+    "verb": "read",
+    "region": "bundles-the-topos-it-pins",
+    "at": 3,
+    "shape": "",
+    "name": "topos-bound",
+    "reads": [
+     "region/capsule"
+    ],
+    "lines": [],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: what bound keeps in its locks, and a capsule read as its entries\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=bound",
+       "bound-lock/1 about=\"a capsule read as its entries: its lock, its code, its vectors\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/capsules value=*/",
+       "bound-lock/1 at=policy:topos/capsule by=target form=alphabet measure=writes role=receipt scope=region/capsules value=audit/topos/**",
+       "bound-lock/1 about=\"the laws a lock states, each with what it rests on and the samples that show it\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/laws value=*.bound",
+       "bound-lock/1 at=policy:topos/capsule by=target form=alphabet measure=writes role=receipt scope=region/laws value=law/**|audit/**",
+       "bound-lock/1 about=\"what this capsule reaches beyond the bytes it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 about=\"the release of topos this capsule's blob bundles, laid from its digest, never the sibling source\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:9bd23c16b52258e2a2f56f516887aef384b799bd8b54d133e9f82c4aa99c9e2f",
+       "bound-lock/1 about=\"the release of topos this capsule's blob bundles, laid from its digest, never the sibling source\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:8a8a93a6d95a4b240d9111c404d6607ff3b776d1773bebee76e21e111d493ab5"
+      ],
+      "receipts": []
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "bundles-the-topos-it-pins/pins",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 1,
+      "hi": 1
+     }
+    }
+   ]
+  }
+ ]
+}

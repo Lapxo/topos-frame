@@ -1,0 +1,235 @@
+{
+ "about": [
+  "What the exports-resolve region renders, asked in the worlds its views ask it, each handed what the region declares it reads."
+ ],
+ "cases": [
+  {
+   "name": "root:topos-measure · exports-resolve",
+   "world": "root:topos-measure",
+   "request": {
+    "verb": "read",
+    "region": "exports-resolve",
+    "at": 3,
+    "shape": "",
+    "name": "topos-measure",
+    "lines": [],
+    "reads": [
+     "region/capsule",
+     "region/vectors"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: what several origins measured, each quantity read as one cell\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=measurements",
+       "bound-lock/1 about=\"the runtime a host starts this capsule with, whose entry, regions and effects are the runtime's own lines\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/runtime value=node",
+       "bound-lock/1 about=\"where this capsule's world keeps its values: the place's own files\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/holds value=./",
+       "bound-lock/1 about=\"the held region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/held value=lang|form/prose/**|form/template/**|prose/*/*|measure/**",
+       "bound-lock/1 about=\"the readings region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/readings value=lang|form/template/**|prose/*/*|measure/**",
+       "bound-lock/1 about=\"the key this world's own prose is written under, which its host drops as it hands the prose to the place's pages and to its own regions\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/key value=measure",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 about=\"the topos release this capsule is packed against, named by its digest\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541"
+      ],
+      "receipts": []
+     },
+     "vectors": {
+      "lines": [],
+      "receipts": [
+       "bound-lock/1 at=place:sha256:1fdaecd9e0db78503143c649ad2a0bfec3b597060db18b8a1b845415e3adb225 by=harness form=alphabet measure=resolves role=reads scope=exports/held value=held",
+       "bound-lock/1 at=place:sha256:1fdaecd9e0db78503143c649ad2a0bfec3b597060db18b8a1b845415e3adb225 by=harness form=alphabet measure=resolves role=reads scope=exports/readings value=held"
+      ]
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "exports-resolve/refused",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-frame · exports-resolve",
+   "world": "root:topos-frame",
+   "request": {
+    "verb": "read",
+    "region": "exports-resolve",
+    "at": 3,
+    "shape": "",
+    "name": "topos-frame",
+    "lines": [],
+    "reads": [
+     "region/capsule",
+     "region/vectors"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: the capsules of a tree, each read against the shape all of them keep\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=capsules",
+       "bound-lock/1 about=\"the topos release this capsule is packed against, named by its digest\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541",
+       "bound-lock/1 about=\"the runtime a host starts this capsule with, whose entry, regions and effects are the runtime's own lines\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/runtime value=node",
+       "bound-lock/1 about=\"where this capsule's world keeps its values: the place's own files\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/holds value=./",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines and receipts it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 about=\"each region holds in at least two worlds\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/admitted-by-two-worlds value=region/capsule|region/vectors",
+       "bound-lock/1 about=\"a world imports its algebra: no least or greatest taken by hand, no form's value split by hand, no state spelled beside the object's own\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/algebra-is-imported value=region/source|form/prose/*/state/*",
+       "bound-lock/1 about=\"a capsule bundles the topos it pins: its own lock names one topos release by digest, the one its blob was packed against\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/bundles-the-topos-it-pins value=region/capsule",
+       "bound-lock/1 about=\"a capsule-s own lock declares regions and never a place-s views\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/capsule-carries-no-views value=region/capsule",
+       "bound-lock/1 about=\"a capsule spells no word the lock gives to a world other than the one it serves\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/capsule-knows-one-world value=audit/wire/worlds/*|region/capsule|region/source",
+       "bound-lock/1 about=\"the capsule is short: its code holds at most four hundred lines\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/capsule-length value=region/source",
+       "bound-lock/1 about=\"what a place customises is a line, never a literal of a capsule\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/customisation-is-lines value=region/source",
+       "bound-lock/1 about=\"the capsule names the domain it serves, once\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/domain-named value=region/capsule",
+       "bound-lock/1 about=\"every host module the capsule imports is one of the effects it declares\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/effects-declared value=region/capsule|region/source|form/runtime/**",
+       "bound-lock/1 about=\"each region its lock declares resolves from the blob a place pins\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/exports-resolve value=region/capsule|region/vectors",
+       "bound-lock/1 about=\"a helper every capsule shares is written once, among the helpers of topos\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/helpers-once value=region/source",
+       "bound-lock/1 about=\"a helper lives where it is used: a name a shared file declares and only one region imports belongs in that region, and a name a region declares that another file imports belongs outside the regions\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/helpers-where-used value=region/capsule|region/source|form/runtime/**",
+       "bound-lock/1 about=\"a capsule's index, one line for each kind of region its own lock declares\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/index value=region/capsule",
+       "bound-lock/1 about=\"every region a world renders is asked by a view of some place, as the host says what the views ask\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/is-asked value=region/capsule|region/state",
+       "bound-lock/1 about=\"the capsule compares a value against no word its notation, its own types or its own lock's regions do not name\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/no-case-lines value=audit/wire/*|region/source|region/capsule",
+       "bound-lock/1 about=\"the capsule-s manifest is written by a view that names it\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/no-manifest-by-hand value=view/*|region/capsule|form/runtime/**",
+       "bound-lock/1 about=\"the capsule spells no place of the tree\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/no-place-name value=prose/*/*/what|region/source",
+       "bound-lock/1 about=\"a region handed less than it declares is refused\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/reads-what-it-declares value=region/capsule|region/vectors",
+       "bound-lock/1 about=\"a region is short: its file holds at most forty lines\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/region-length value=region/capsule|region/source|form/runtime/**",
+       "bound-lock/1 about=\"what a capsule runs is a line: every file its runtime's entry reaches lies in what that runtime says it runs, and the runtime is read from lines, never from the frame's code\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/runtime-is-a-line value=region/capsule|region/source|form/runtime/**",
+       "bound-lock/1 about=\"a world's look is lines: no number and no word of the style or page lines in its code\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/style-in-code value=region/source|form/style/**|form/page/**",
+       "bound-lock/1 about=\"a world reads a line's value through the wire and never by hand\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/wire-parsed-once value=region/source",
+       "bound-lock/1 about=\"a world's files are its anatomy and nothing else: its lock, entry, manifest and build, its helpers, a file and a vector for each region its own lock declares, a licence and a readme, and every shape a view of the place writes\" at=policy:topos/capsule by=target form=alphabet measure=reads role=receipt scope=region/world-shape value=region/capsule|view/*|region/state|form/runtime/**",
+       "bound-lock/1 about=\"the key this world's own prose is written under, which its host drops as it hands the prose to the place's pages and to its own regions\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/key value=frame"
+      ],
+      "receipts": []
+     },
+     "vectors": {
+      "lines": [],
+      "receipts": [
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/admitted-by-two-worlds value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/algebra-is-imported value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/bundles-the-topos-it-pins value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/capsule-carries-no-views value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/capsule-knows-one-world value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/capsule-length value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/customisation-is-lines value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/domain-named value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/effects-declared value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/exports-resolve value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/helpers-once value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/helpers-where-used value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/index value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/is-asked value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/no-case-lines value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/no-manifest-by-hand value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/no-place-name value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/reads-what-it-declares value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/region-length value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/runtime-is-a-line value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/style-in-code value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/wire-parsed-once value=held",
+       "bound-lock/1 at=place:sha256:92fd1022cc91a10adf0ae1f523801dec6377ce0845d994d46236380fc2d673ea by=harness form=alphabet measure=resolves role=reads scope=exports/world-shape value=held"
+      ]
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "exports-resolve/refused",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 0,
+      "hi": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-measure-unresolved · exports-resolve",
+   "world": "root:topos-measure-unresolved",
+   "request": {
+    "verb": "read",
+    "region": "exports-resolve",
+    "at": 3,
+    "shape": "",
+    "name": "topos-measure",
+    "lines": [],
+    "reads": [
+     "region/capsule",
+     "region/vectors"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: what several origins measured, each quantity read as one cell\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=measurements",
+       "bound-lock/1 about=\"the runtime a host starts this capsule with, whose entry, regions and effects are the runtime's own lines\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/runtime value=node",
+       "bound-lock/1 about=\"where this capsule's world keeps its values: the place's own files\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/holds value=./",
+       "bound-lock/1 about=\"the held region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/held value=lang|form/prose/**|form/template/**|prose/*/*|measure/**",
+       "bound-lock/1 about=\"the readings region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/readings value=lang|form/template/**|prose/*/*|measure/**",
+       "bound-lock/1 about=\"the key this world's own prose is written under, which its host drops as it hands the prose to the place's pages and to its own regions\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/key value=measure",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 about=\"the topos release this capsule is packed against, named by its digest\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541"
+      ],
+      "receipts": []
+     },
+     "vectors": {
+      "lines": [],
+      "receipts": [
+       "bound-lock/1 at=place:sha256:1fdaecd9e0db78503143c649ad2a0bfec3b597060db18b8a1b845415e3adb225 by=harness form=alphabet measure=resolves role=reads scope=exports/held value=held",
+       "bound-lock/1 at=place:sha256:1fdaecd9e0db78503143c649ad2a0bfec3b597060db18b8a1b845415e3adb225 by=harness form=alphabet measure=resolves role=reads scope=exports/readings value=\"refused: no file dist/regions/readings.js\""
+      ]
+     }
+    }
+   },
+   "expected": [
+    {
+     "scope": "exports-resolve/refused",
+     "measure": "count",
+     "role": "reads",
+     "bound": {
+      "kind": "interval",
+      "lo": 1,
+      "hi": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "root:topos-measure-unread · exports-resolve",
+   "world": "root:topos-measure-unread",
+   "request": {
+    "verb": "read",
+    "region": "exports-resolve",
+    "at": 3,
+    "shape": "",
+    "name": "topos-measure",
+    "lines": [],
+    "reads": [
+     "region/capsule",
+     "region/vectors"
+    ],
+    "regions": {
+     "capsule": {
+      "lines": [
+       "bound-lock/1 about=\"the domain this capsule serves: what several origins measured, each quantity read as one cell\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=measurements",
+       "bound-lock/1 about=\"the runtime a host starts this capsule with, whose entry, regions and effects are the runtime's own lines\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/runtime value=node",
+       "bound-lock/1 about=\"where this capsule's world keeps its values: the place's own files\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/holds value=./",
+       "bound-lock/1 about=\"the held region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/held value=lang|form/prose/**|form/template/**|prose/*/*|measure/**",
+       "bound-lock/1 about=\"the readings region\" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/readings value=lang|form/template/**|prose/*/*|measure/**",
+       "bound-lock/1 about=\"the key this world's own prose is written under, which its host drops as it hands the prose to the place's pages and to its own regions\" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/key value=measure",
+       "bound-lock/1 about=\"what this capsule reaches beyond the lines it is handed\" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none",
+       "bound-lock/1 about=\"the topos release this capsule is packed against, named by its digest\" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541"
+      ],
+      "receipts": []
+     },
+     "vectors": {
+      "lines": [],
+      "receipts": []
+     }
+    }
+   },
+   "expected": []
+  }
+ ]
+}
