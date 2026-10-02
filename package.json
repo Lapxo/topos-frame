@@ -1,6 +1,6 @@
 {
   "name": "@lapxo/topos-frame",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "The shape every capsule keeps, read of each from its lines and the receipts of its code: one file per line, short regions, helpers written once, vectors from two worlds, rendered manifests and indexes, declared effects, no views of a place, and no place, case or customisation spelled in code.",
   "type": "module",

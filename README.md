@@ -1,6 +1,6 @@
 # @lapxo/topos-frame
 
-![version 0.1.1](https://img.shields.io/badge/version-0.1.1-8c959f) ![license MIT](https://img.shields.io/badge/license-MIT-8c959f) ![node >=22.12](https://img.shields.io/badge/node-%3E%3D22.12-8c959f) ![dependencies 1](https://img.shields.io/badge/dependencies-1-8c959f) ![cases 0 hold](https://img.shields.io/badge/cases-0_hold-8c959f) ![verify agrees](https://img.shields.io/badge/verify-agrees-2da44e)
+![version 0.1.2](https://img.shields.io/badge/version-0.1.2-8c959f) ![license MIT](https://img.shields.io/badge/license-MIT-8c959f) ![node >=22.12](https://img.shields.io/badge/node-%3E%3D22.12-8c959f) ![dependencies 1](https://img.shields.io/badge/dependencies-1-8c959f) ![cases 0 hold](https://img.shields.io/badge/cases-0_hold-8c959f) ![verify none](https://img.shields.io/badge/verify-none-8c959f)
 
 The shape a capsule keeps.
 
@@ -23,6 +23,7 @@ A world is trusted by its shape, not by its author. What a stranger can check in
 Add to your lock:
 sources/topos-frame value=github:Lapxo/topos-frame
 uses/topos-frame sha256:<release digest>
+https://github.com/Lapxo/topos-frame/releases
 Fetch the release asset, verify its sha256 equals the uses/ line, place it in bound/cas/blobs/. Fold: its pages appear.
 open: line/install needs=host/resolve — when bound resolves sources/ itself, the fetch line leaves the page by fold.
 
