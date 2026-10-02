@@ -1,6 +1,6 @@
-bound-lock/1 at=place:sha256:1ae3980b705426b9bcf88ce2bd68587baf0e21188e6cb6a261867faa3b50af11 by=bound form=alphabet measure=digest role=writes scope=receipts value=sha256:c8588b663d03da40fa1cc1c512e6673cdf01d0cd2364fa2b8db1ed4fb4ef1ee9
+bound-lock/1 at=place:sha256:9795c8da880f0a60b4f273f6d8af035b677e991882e95417a6f7d4f5a0d7b308 by=bound form=alphabet measure=digest role=writes scope=receipts value=sha256:92980412851642c6d8aa4f26415e8100474458886fed8b9943d427f82a289c66
 
-bound-lock/1 at=place:sha256:3384afd55d83a8d64459d8f68e2bee9bbfada826241aec993f44725214b7a779 by=bound form=interval measure=count role=writes scope=receipts/. value=1..1
-bound-lock/1 at=place:sha256:d41d090bf69455d52d57fd76ba2ddd96d715708e50622ccb3a7c5972c8343c0d by=bound form=interval measure=count role=writes scope=receipts/source value=601..601
-bound-lock/1 at=place:sha256:ddd22ce78aebbed5189c4f28ae9c1dff9bde92692476e3a1f721b5f73d77acb8 by=bound form=interval measure=count role=writes scope=receipts/src value=22..22
-bound-lock/1 at=place:sha256:691627ee3864acd3f7ae478e08ba3d3ec343b9ba90ef4da78e60118b061a0d8c by=bound form=interval measure=count role=writes scope=receipts/vector value=100..100
+bound-lock/1 at=place:sha256:22838346b9ebdb1bba17f176bad263cfd7866d708d5b84a73b94ede4d2bd595d by=bound form=interval measure=count role=writes scope=receipts/source value=703..703
+bound-lock/1 at=place:sha256:95ef5ca250f278676b348481031b0201be3fbf69d4d51ed60389fe7c948a18ab by=bound form=alphabet measure=bytes role=writes scope=receipts/source value=sha256:95ef5ca250f278676b348481031b0201be3fbf69d4d51ed60389fe7c948a18ab
+bound-lock/1 at=place:sha256:004fed39c32bb969b47cb9198967da829d3b912a77ba2af63f231c878d48d23e by=bound form=interval measure=count role=writes scope=receipts/src value=26..26
+bound-lock/1 at=place:sha256:1ddaaf54067fc6c7b162db4025b70d3d7cbcb8b049214aa2784b617fd856c4a0 by=bound form=alphabet measure=bytes role=writes scope=receipts/src value=sha256:1ddaaf54067fc6c7b162db4025b70d3d7cbcb8b049214aa2784b617fd856c4a0
